@@ -22,7 +22,7 @@ Segui questi passaggi per configurare l'ambiente:
     
 2.  Copia il nome della coda e l'Azure Storage Connection String dal portale Azure.
     
-3.  Crea un file `.env` nella root del progetto e aggiungi le seguenti variabili:
+3.  Modifica il file `.env` nella root del progetto e aggiungi le seguenti variabili:
 4.  
     ```
     NOME_CODA=nome_coda_azure 
