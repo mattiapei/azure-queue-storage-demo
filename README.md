@@ -28,7 +28,8 @@ Segui questi passaggi per configurare l'ambiente:
     
     Copy code
     
-    `QUEUE_NAME=nome_coda_azure AZURE_STORAGE_CONNECTION_STRING=tua_connection_string`
+    `NOME_CODA=nome_coda_azure` 
+    `AZURE_STORAGE_CONNECTION_STRING=tua_connection_string`
     
     Sostituisci `nome_coda_azure` con il nome effettivo della tua coda Azure e `tua_connection_string` con la stringa di connessione dell'account di archiviazione.
     
