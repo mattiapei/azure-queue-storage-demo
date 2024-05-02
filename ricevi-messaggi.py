@@ -19,6 +19,5 @@ for i in range(10):
     if not msg:
         print("Nessun Messaggio")
     else:
-        print(msg.content + "\n")
         queue.delete_message(msg)
     time.sleep(1)
