@@ -22,5 +22,7 @@ for i in range(10):
     if not msg:
         print("Nessun Messaggio")
     else:
+        print(f"Identificativo: ", msg.id)
+        print(f"Contenuto: ", msg.content, "\n")
         queue.delete_message(msg)
     time.sleep(1)
