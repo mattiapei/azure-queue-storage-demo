@@ -1,7 +1,7 @@
 import os
 import sys
 import time
-from azure.storage.queue import QueueServiceClient
+from azure.storage.queue import QueueClient
 
 connection_string = os.getenv("AZURE_STORAGE_CONNECTION_STRING")
 queue_name = os.getenv("NOME_CODA")
